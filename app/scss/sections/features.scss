@@ -1,0 +1,119 @@
+.features {
+	padding-top: 100px;
+}
+
+.title-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 70px;
+}
+
+.title {
+	margin-bottom: 35px;
+	font-weight: 400;
+	font-size: 36px;
+	color: $black-light;
+}
+
+.title-bg {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 88px;
+	height: 5px;
+}
+
+.title__top-line,
+.title__bottom-line {
+	width: 75px;
+	height: 1px;
+	background-color: #18cfab; 
+}
+
+.title__bottom-line {
+	align-self: flex-end;
+}
+
+.features__list {
+	margin-bottom: 30px;
+}
+
+.features__item {
+	margin-bottom: 70px;
+}
+
+.features__top {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.features__icon-wrap {
+	display: flex;
+	margin-right: 20px;
+	width: 35px;
+	height: 35px;
+}
+
+.features__icon {
+	margin: auto;
+	fill: #18cfab;
+}
+
+.features__icon_leaf {
+	height: 34px;
+	width: 25px;
+}
+
+.features__icon_blog {
+	height: 27px;
+	width: 27px;
+}
+
+.features__icon_search {
+	height: 28px;
+	width: 28px;
+}
+
+.features__icon_time {
+	height: 30px;
+	width: 22px;
+}
+
+.features__icon_notebook {
+	height: 22px;
+	width: 34px;
+}
+
+.features__icon_tools {
+	height: 24px;
+	width: 24px;
+}
+
+.features__icon_mini-bulb {
+	height: 35px;
+	width: 20px;
+}
+
+.features__icon_fly {
+	height: 24px;
+	width: 26px;
+}
+
+.features__icon_custom {
+	height: 22px;
+	width: 27px;
+}
+
+
+.features__title {
+	font-weight: 700;
+	font-size: 18px;
+	color: $gray717171;
+}
+
+.features__text {
+	line-height: 1.786;
+}
+

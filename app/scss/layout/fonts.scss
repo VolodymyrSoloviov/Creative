@@ -1,3 +1,12 @@
+//Montserrat Light
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../fonts/montserrat-light-webfont.woff') format('woff'),
+       url('../../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
 //Montserrat Regular
 @font-face {
   font-family: 'Montserrat';
@@ -14,4 +23,27 @@
        url('../../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
   font-weight: 700;
   font-style: normal;
+}
+
+//Font Awesome 5
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/fa-brands-400.woff") format("woff"),
+  url("../../fonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/fa-regular-400.woff") format("woff"),
+  url("../../fonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/fa-solid-900.woff") format("woff"),
+  url("../../fonts/fa-solid-900.svg#fontawesome") format("svg");
 }

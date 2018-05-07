@@ -1,7 +1,9 @@
-// $container-width: 1100px;
-
 //colors
 $white: #fff;
+$aqua: #18cfab;
+$black-light: #4e4e4e;
+$gray: #777;
+$gray717171: #717171;
 
 //layout
 @import "layout/adjustment";
@@ -10,7 +12,9 @@ $white: #fff;
 //sections
 @import "sections/header";
 @import "sections/home";
-@import "sections/three";
+@import "sections/options";
+@import "sections/features";
+@import "sections/about";
 
 //media
 @import "media/tv";

@@ -1,9 +1,13 @@
 .header {
+	position: relative;
 	background-color: rgba(#49473f, .6);
+}
 
-	.row {
-		min-height: 120px;
-	}
+.header__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 120px;
 }
 
 .logo__link {
@@ -14,20 +18,41 @@
 	color: $white;
 }
 
-.logo__img {
-	display: block;
+.logo__pic-wrap {
+	position: relative;
 	margin-right: 10px;
 }
 
+.logo__pic-bg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -17px;
+	margin-left: -17px;
+	width: 34px;
+	height: 34px;
+	background-color: #fff;
+}
+
+.logo__pic {
+	position: relative;
+	width: 58px;
+	height: 67px;
+	fill: #18cfab;
+}
+
 .logo__text {
-	font-family: 'Montserrat';
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 32px;
 }
 
 .logo__first-word {
-	color: #18cfab;
+	color: $aqua;
 	font-weight: 700;
+}
+
+.nav {
+	align-self: flex-end;
 }
 
 .nav__list {
@@ -47,7 +72,7 @@
 	border-bottom: 2px solid #18cfab;
 
 	.nav__link {
-		color: #18cfab;
+		color: $aqua;
 	}
 }
 
@@ -59,6 +84,6 @@
 	transition: .3s;
 	
 	&:hover {
-		color: #18cfab;
+		color: $aqua;
 	}
 }
