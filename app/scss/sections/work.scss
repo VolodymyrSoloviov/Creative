@@ -1,0 +1,182 @@
+.work {
+	padding-top: 100px;
+}
+
+.work__list {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+
+.work__item {
+	.work__link {
+		border: 1px solid #ebebeb;
+		border-left: none;
+	}
+
+	&:first-child {
+		.work__link {
+			border-left: 1px solid #ebebeb;
+		}
+	}
+}
+
+.work__item_active {
+	.work__link {
+		color: #18cfab;
+		border-top: 2px solid #18cfab;
+	}
+}
+
+.work__link {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 58px;
+	text-decoration: none;
+	font-weight: 400;
+	color: $gray717171;
+	padding-left: 20px;
+	padding-right: 20px;
+	transition: .3s;
+
+	&:hover {
+		color: #18cfab;
+	}
+}
+
+.work__text {
+	margin: auto;
+}
+
+.works {
+	margin-bottom: 70px;
+}
+
+.works__item {
+	position: relative;
+
+	&:hover {
+		.works__hover {
+			opacity: 1;
+		}
+	}
+}
+
+.works__hover {
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	background-color: #fff;
+	border-top: 4px solid #18cfab;
+	transition: .3s;
+}
+
+.works__img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.works__icons {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.works__icon {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #18cfab;
+	border-radius: 50%;
+	margin-right: 5px;
+	transition: .3s;
+
+	&:hover {
+		background-color: #18cfab;
+		
+		.works__icon-link,
+		.works__icon-search {
+			fill: #fff;
+		}
+
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.works__icon-link, 
+.works__icon-search {
+	margin: auto;
+	width: 14px;
+	height: 14px;
+	transition: .3s;
+	fill: #18cfab;
+}
+
+.works__title {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: $aqua;
+}
+
+.works__text {
+	font-size: 12px;
+	color: #8a8a8a;
+}
+
+.work__btn {
+	display: flex;
+	margin: 0 auto 100px;
+	padding: 0;
+	width: 165px;
+	height: 60px;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	border-radius: 4px;
+	background-color: #18cfab;
+
+	&:hover {
+		.work__btn-icon_plus {
+			fill: $black-light;
+		}
+		.work__btn-text {
+			color: $black-light;
+		}
+	}
+}
+
+.work__btn-info {
+	display: flex;
+	align-items: center;
+	margin: auto;
+}
+
+.work__btn-icon {
+	margin-right: 15px;
+}
+
+.work__btn-icon_plus {
+	width: 16px;
+	height: 16px;
+	fill: #fff;
+	transition: .3s;
+}
+
+.work__btn-text {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: $white;
+	transition: .3s;
+}
