@@ -28,7 +28,7 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 var moduleJs = [
   'app/js/home-slider.js', 
   'app/js/about-tabs.js', 
-  'app/js/third.js', 
+  'app/js/services-tabs.js', 
   'app/js/main.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
