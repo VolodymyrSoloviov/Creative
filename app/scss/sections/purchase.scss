@@ -1,0 +1,45 @@
+.purchase {
+	min-height: 480px;
+	position: relative;	
+	background: url(../img/pic/purchase-bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.purchase__bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(#131c22, .7);
+}
+
+.purchase__wrap {
+	position: relative;	
+	display: flex;
+	text-align: center;	
+	min-height: 480px;
+}
+
+.purchase__info {
+	margin: auto;	
+}
+
+.purchase__title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 40px;
+	color: $aqua;
+	margin-bottom: 25px;
+}
+
+.purchase__text {
+	font-weight: 400;
+	font-size: 16px;
+	color: #d8d8d8;
+	margin-bottom: 70px;
+}
+
+.purchase__btn {
+	width: 165px;
+}
