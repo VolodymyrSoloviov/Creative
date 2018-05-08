@@ -1,0 +1,86 @@
+.facts {
+	height: 375px;
+}
+
+.facts__list {
+	height: 100%;
+	display: flex;
+}
+
+.facts__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 0 1 25%;
+	height: 100%;
+	font-size: 18px;
+
+	&:nth-child(odd) {
+		background-color: #25333c;
+		border-top: 7px solid #18cfab;
+		color: $aqua;
+	}
+	&:nth-child(even) {
+		background-color: #18cfab;
+		border-top: 7px solid #25333c;
+		color: #25333c;
+		
+		.facts__pic {
+			border-color: #25333c;
+		}
+
+		.facts__pic-bg {
+			background-color: #25333c;
+		}
+	}
+}
+
+.facts__pic {
+	display: flex;
+	margin-bottom: 20px;
+	height: 165px;
+	width: 165px;
+	border-radius: 50%;
+	border: 2px solid #18cfab;
+}
+
+.facts__pic-bg {
+	display: flex;
+	margin: auto;
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	background-color: #18cfab;
+}
+
+.facts__icon {
+	margin: auto;
+	fill: #fff;
+}
+
+.facts__icon_briefcase {
+	width: 37px;
+	height: 31px;
+}
+
+.facts__icon_customer {
+	width: 28px;
+	height: 36px;
+}
+
+.facts__icon_cart {
+	width: 35px;
+	height: 35px;
+}
+
+.facts__icon_point {
+	width: 43px;
+	height: 38px;
+}
+
+.facts__count {
+	font-weight: 400;
+	font-size: 36px;
+	color: $white;
+}
