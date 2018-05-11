@@ -980,4 +980,100 @@ h6 {
   font-size: 36px;
   color: #fff; }
 
+.price {
+  padding: 100px 0; }
+
+.price__list {
+  display: -ms-flexbox;
+  display: flex; }
+
+.price__item {
+  -ms-flex: 0 1 25%;
+      flex: 0 1 25%;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background-color: #f8fcfe; }
+
+.price__top {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px; }
+
+.price__title {
+  position: relative;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  color: #717171; }
+
+.price__price {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  background-color: #2e4a5b;
+  color: #fff; }
+
+.price__cost {
+  margin: auto; }
+
+.price__num {
+  font-weight: 700;
+  font-size: 39px; }
+
+.price__options-item {
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  border-bottom: 1px solid #e3e3e3; }
+  .price__options-item:last-child {
+    margin-bottom: none; }
+
+.price__options-text {
+  margin: auto;
+  font-weight: 400; }
+
+.price__bottom {
+  padding: 25px 0; }
+
+.price__btn {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  height: 50px;
+  width: 170px;
+  border-radius: 3px;
+  border: 0;
+  outline: none;
+  background-color: #2e4a5b;
+  cursor: pointer; }
+  .price__btn:hover .price__btn-text {
+    color: #18cfab; }
+
+.price__btn-text {
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  transition: .3s; }
+
+.price__item_active {
+  box-shadow: 0px 0px 9px 0px #c7c7c7; }
+  .price__item_active .price__title {
+    color: #18cfab; }
+  .price__item_active .price__price,
+  .price__item_active .price__btn {
+    background-color: #18cfab; }
+
+.price__btn_active:hover .price__btn-text {
+  color: #777; }
+
+.price__offer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 62px;
+  height: 61px; }
+
 /*# sourceMappingURL=maps/main.min.css.map */

@@ -1,0 +1,119 @@
+.price {
+	padding: 100px 0;
+}
+
+.price__list {
+	display: flex;
+}
+
+.price__item {
+	flex: 0 1 25%;
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+	background-color: #f8fcfe;
+}
+
+.price__top {
+	position: relative;
+	display: flex;
+	height: 60px;
+}
+
+.price__title {
+	position: relative;
+	margin: auto;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 24px;
+	color: $gray717171;
+}
+
+.price__price {
+	display: flex;
+	height: 100px;
+	background-color: #2e4a5b;
+	color: $white;
+}
+
+.price__cost {
+	margin: auto;
+}
+
+.price__num {
+	font-weight: 700;
+	font-size: 39px;
+}
+
+.price__options-item {
+	display: flex;
+	height: 45px;
+	border-bottom: 1px solid #e3e3e3;
+
+	&:last-child {
+		margin-bottom: none;
+	}
+}
+
+.price__options-text {
+	margin: auto;
+	font-weight: 400;
+}
+
+.price__bottom {
+	padding: 25px 0;
+}
+
+.price__btn {
+	display: flex;
+	margin: 0 auto;
+	height: 50px;
+	width: 170px;
+	border-radius: 3px;
+	border: 0;
+	outline: none;
+	background-color: #2e4a5b;
+	cursor: pointer;
+
+	&:hover {
+		.price__btn-text {
+			color: $aqua;
+		}
+	}
+}
+
+.price__btn-text {
+	margin: auto;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: $white;
+	transition: .3s;
+}
+
+.price__item_active {
+	box-shadow: 0px 0px 9px 0px rgba(199,199,199,1);
+
+	.price__title {
+		color: $aqua;
+	}
+
+	.price__price,
+	.price__btn {
+		background-color: #18cfab;
+	}
+}
+
+.price__btn_active {
+	&:hover {
+		.price__btn-text {
+			color: $gray;
+		}
+	}
+}
+
+.price__offer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 62px;
+	height: 61px;
+}
