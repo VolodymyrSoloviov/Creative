@@ -1162,4 +1162,120 @@ h6 {
   border-radius: 50%;
   border: 2px solid #18cfab; }
 
+.team {
+  padding: 100px 0; }
+
+.team__item:hover .team__profession {
+  color: #2e4a5b; }
+
+.team__item:hover .team__info,
+.team__item:hover .team__social-list {
+  background-color: #18cfab; }
+
+.team__item:hover .team__hover {
+  opacity: 1; }
+
+.team__pic {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 230px; }
+
+.team__hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 2px solid #18cfab;
+  opacity: 0;
+  transition: .3s; }
+
+.team__hover-link {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%; }
+
+.team__hover-bg {
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff; }
+
+.team__hover-icon {
+  margin: auto;
+  width: 26px;
+  height: 26px; }
+
+.team__hover-plus {
+  width: 100%;
+  height: 100%;
+  fill: #18cfab; }
+
+.team__img {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.team__info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 16px 24px;
+  width: 100%;
+  height: 80px;
+  background-color: #2e4a5b;
+  transition: .3s; }
+
+.team__name {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff; }
+
+.team__profession {
+  font-size: 13px;
+  color: #18cfab;
+  transition: .3s; }
+
+.team__social-list {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #2e4a5b;
+  border-top: 1px solid #c7cfd3;
+  transition: .3s; }
+
+.team__social-item {
+  -ms-flex: 0 1 25%;
+      flex: 0 1 25%;
+  border-right: 1px solid #c7cfd3; }
+  .team__social-item:last-child {
+    border-right: none; }
+
+.team__social-link {
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: #fff; }
+  .team__social-link:hover {
+    color: #4e4e4e; }
+
+.team__icon {
+  margin: auto;
+  font-size: 20px;
+  transition: .3s; }
+
 /*# sourceMappingURL=maps/main.min.css.map */
