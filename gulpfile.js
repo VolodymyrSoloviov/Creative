@@ -30,7 +30,8 @@ var moduleJs = [
   'app/js/about-tabs.js', 
   'app/js/services-tabs.js',
   'app/js/feedback-slider.js',
-  'app/js/main.js'
+  'app/js/map.js',
+  'app/js/form.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
