@@ -31,7 +31,7 @@ var moduleJs = [
   'app/js/services-tabs.js',
   'app/js/feedback-slider.js',
   'app/js/map.js',
-  'app/js/form.js'
+  'app/js/smooth-scrolling.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
