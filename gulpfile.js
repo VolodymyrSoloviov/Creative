@@ -31,7 +31,8 @@ var moduleJs = [
   'app/js/services-tabs.js',
   'app/js/feedback-slider.js',
   'app/js/map.js',
-  'app/js/smooth-scrolling.js'
+  'app/js/smooth-scrolling.js',
+  'app/js/mobile-menu.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
@@ -39,6 +40,7 @@ var vendorJs = [
   'node_modules/bootstrap/dist/js/bootstrap.min.js',
   'app/bower/slick-carousel/slick/slick.min.js',
   'app/bower/jquery-ui/jquery-ui.min.js',
+  'app/bower/Headhesive.js/dist/headhesive.min.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам css
 var vendorCss = [

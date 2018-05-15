@@ -40,6 +40,7 @@
             </a>
           </div>
         </div>
+        <div class="header__wrap1">
         <header class="header">
           <div class="container">
             <div class="header__wrap">
@@ -57,6 +58,9 @@
                 </a>
               </div> <!-- end logo -->
               <nav class="nav">
+                <div id="menu-icon">
+                  <i class="fas fa-bars"></i>
+                </div>
                 <ul class="nav__list">
                   <li class="nav__item nav__item_active">
                     <a href="javascript:void(0)" onclick="slowScroll('#home')" class="nav__link">home</a>
@@ -87,9 +91,43 @@
                   </li>
                 </ul>
               </nav>
-            </div>
+            </div> <!-- end header__wrap -->
+            <div id="mobile-menu">
+              <nav class="mobile-menu__nav">
+                <ul class="mobile-menu__list">
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" onclick="slowScroll('#home')" class="nav__link">home</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" onclick="slowScroll('#about')" class="nav__link">about</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" onclick="slowScroll('#features')" class="nav__link">skills</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" onclick="slowScroll('#services')" class="nav__link">service</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" onclick="slowScroll('#work')" class="nav__link">work</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" onclick="slowScroll('#feedback')" class="nav__link">testimonial</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" class="nav__link">blog</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" onclick="slowScroll('#team')" class="nav__link">team</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" onclick="slowScroll('#contact')" class="nav__link">contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div> <!--end mobile-menu-->
           </div>
         </header>
+        </div>
         <div class="home__info">
           <div class="container">
             <div class="home__info-text">The Ham is <span>Wordpress theme</span></div>
@@ -273,7 +311,7 @@
       <section class="about" id="about">
         <div class="container">
           <div class="row d-flex justify-content-center">
-            <div class="col-6">
+            <div class="col-6 col-lg-8">
               <div class="title-block">
                 <h2 class="title title_white">About Our Company</h2>
                 <div class="title-bg">
@@ -863,7 +901,7 @@
           </div>
           <div class="news__list">
             <div class="row">
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="news__item">
                   <a href="#" class="news__link">
                     <time class="news__date-wrap">
@@ -888,7 +926,7 @@
                   </a>
                 </div>
               </div> <!--end col-3-->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="news__item">
                   <a href="#" class="news__link">
                     <time class="news__date-wrap">
@@ -913,7 +951,7 @@
                   </a>
                 </div>
               </div> <!--end col-3-->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="news__item">
                   <a href="#" class="news__link">
                     <time class="news__date-wrap">
@@ -938,7 +976,7 @@
                   </a>
                 </div>
               </div> <!--end col-3-->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="news__item">
                   <a href="#" class="news__link">
                     <time class="news__date-wrap">
@@ -963,7 +1001,7 @@
                   </a>
                 </div>
               </div> <!--end col-3-->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="news__item">
                   <a href="#" class="news__link">
                     <time class="news__date-wrap">
@@ -988,7 +1026,7 @@
                   </a>
                 </div>
               </div> <!--end col-3-->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="news__item">
                   <a href="#" class="news__link">
                     <time class="news__date-wrap">
@@ -1013,7 +1051,7 @@
                   </a>
                 </div>
               </div> <!--end col-3-->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="news__item">
                   <a href="#" class="news__link">
                     <time class="news__date-wrap">
@@ -1038,7 +1076,7 @@
                   </a>
                 </div>
               </div> <!--end col-3-->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="news__item">
                   <a href="#" class="news__link">
                     <time class="news__date-wrap">
@@ -1417,7 +1455,7 @@
           </div>
           <div class="team__list">
             <div class="row">
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="team__item">
                   <div class="team__pic">
                     <div class="team__hover">
@@ -1461,7 +1499,7 @@
                   </ul>
                 </div>
               </div> <!-- end col-3 -->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="team__item">
                   <div class="team__pic">
                     <div class="team__hover">
@@ -1505,7 +1543,7 @@
                   </ul>
                 </div>
               </div> <!-- end col-3 -->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="team__item">
                   <div class="team__pic">
                     <div class="team__hover">
@@ -1549,7 +1587,7 @@
                   </ul>
                 </div>
               </div> <!-- end col-3 -->
-              <div class="col-3">
+              <div class="col-3 col-lg-4">
                 <div class="team__item">
                   <div class="team__pic">
                     <div class="team__hover">
@@ -1733,7 +1771,7 @@
                 </div>
               </address>
             </div>
-            <div class="col-4">
+            <div class="col-4 col-lg-5">
               <h3 class="footer__title">Recent post</h3>
               <ul class="recent-post__list">
                 <li class="recent-post__item">
@@ -1798,7 +1836,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-3">
+            <div class="col-3 col-lg-4">
               <h3 class="footer__title">Tags</h3>
               <ul class="tags__list">
                 <li class="tags__item">
@@ -1873,7 +1911,7 @@
                 </button>
               </form>
             </div>
-            <div class="col-2">
+            <div class="col-2 col-lg-3">
               <h3 class="footer__title">Flicke feed</h3>
               <ul class="feed__list">
                 <li class="feed__item">

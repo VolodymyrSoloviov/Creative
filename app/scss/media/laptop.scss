@@ -1,5 +1,21 @@
-// @media screen and (max-width: 992px) {
-// 	.container {
-// 		width: 730px;
-// 	}
-// }
+@media screen and (max-width: 992px) {
+	
+	#menu-icon {
+		display: block;
+	}
+
+	.nav {
+		align-self: center;
+	}
+
+	.nav__list {
+		display: none;
+	}
+
+	.mobile-menu__list {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	
+}
