@@ -1394,4 +1394,225 @@ h6 {
   color: #fff;
   transition: .3s; }
 
+.footer__top {
+  padding: 120px 0 90px;
+  background-color: #1c2b33; }
+
+.footer__logo {
+  margin-bottom: 30px; }
+  .footer__logo .logo__text {
+    font-size: 40px; }
+
+.footer__text {
+  margin-bottom: 80px;
+  color: #b2b2b2;
+  line-height: 1.857; }
+  .footer__text p {
+    margin: 0; }
+
+.address {
+  font-style: normal;
+  line-height: 1.625; }
+  .address p {
+    margin: 0; }
+
+.address__title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #c0c0c0; }
+
+.address__text {
+  margin-bottom: 30px;
+  color: #c0c0c0; }
+
+.address__contact-left {
+  font-weight: 400;
+  font-size: 16px;
+  color: #c1c1c1; }
+
+.address__contact-right {
+  color: #c1c1c1; }
+
+.address__link {
+  text-decoration: none;
+  color: #c1c1c1;
+  transition: .3s; }
+  .address__link:hover {
+    text-decoration: underline; }
+
+.footer__title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff; }
+
+.recent-post__item {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #294453; }
+  .recent-post__item:last-child {
+    margin-bottom: 0;
+    border-bottom: none; }
+
+.recent-post__link {
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none; }
+  .recent-post__link:hover .recent-post__title {
+    color: #18cfab; }
+
+.recent-post__left {
+  margin-right: 15px; }
+
+.recent-post__pic {
+  width: 77px;
+  height: 66px; }
+
+.recent-post__img {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.recent-post__title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  transition: .3s; }
+
+.recent-post__text {
+  margin-bottom: 10px;
+  color: #b2b2b2;
+  line-height: 1.786; }
+  .recent-post__text p {
+    margin: 0; }
+
+.recent-post__date {
+  display: block;
+  color: #f1f1f1; }
+
+.tags__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 30px -8px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #294453; }
+
+.tags__item {
+  margin: 0 0 8px 8px;
+  height: 38px;
+  border: 1px solid #d7d7d7;
+  transition: .3s; }
+  .tags__item:hover {
+    background-color: #18cfab;
+    border-color: #18cfab; }
+    .tags__item:hover .tags__name {
+      color: #fff; }
+
+.tags__link {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none; }
+
+.tags__name {
+  margin: auto;
+  color: #b8b8b8;
+  transition: .3s; }
+
+.tags__text {
+  margin-bottom: 20px;
+  color: #b4b4b4;
+  line-height: 1.857; }
+  .tags__text p {
+    margin: 0; }
+
+.subscribe {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 42px;
+  background-color: #22353f; }
+
+.subscribe__email {
+  -ms-flex: 0 1 80%;
+      flex: 0 1 80%;
+  padding: 0 12px;
+  border: none;
+  outline: none;
+  background-color: #22353f;
+  color: #fff; }
+
+.subscribe__btn {
+  -ms-flex: 0 1 20%;
+      flex: 0 1 20%;
+  text-transform: uppercase;
+  color: #18cfab;
+  background-color: #294453;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s; }
+  .subscribe__btn:hover {
+    color: #fff; }
+
+.subscribe__email::-webkit-input-placeholder {
+  color: #757575;
+  font-size: 14px; }
+
+.subscribe__email::-moz-placeholder {
+  color: #757575;
+  font-size: 14px; }
+
+.subscribe__email:-moz-placeholder {
+  color: #757575;
+  font-size: 14px; }
+
+.subscribe__email:-ms-input-placeholder {
+  color: #757575;
+  font-size: 14px; }
+
+.feed__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.feed__item {
+  margin-bottom: 15px; }
+
+.feed__pic {
+  width: 75px;
+  height: 75px; }
+
+.feed__img {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.footer__bottom {
+  background-color: #22353f; }
+
+.footer__bottom-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  height: 108px;
+  width: 100%; }
+
+.footer__copyright {
+  margin: auto;
+  color: #aeaeae; }
+
+.footer__copyright-link {
+  text-decoration: none;
+  color: #18cfab; }
+
 /*# sourceMappingURL=maps/main.min.css.map */
