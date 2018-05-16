@@ -1839,7 +1839,12 @@ h6 {
   .scroll-btn {
     right: 30px; }
   .scroll-btn__active {
-    bottom: 30px; } }
+    bottom: 30px; }
+  .team__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; } }
 
 @media screen and (max-width: 576px) {
   .home__info-title {
