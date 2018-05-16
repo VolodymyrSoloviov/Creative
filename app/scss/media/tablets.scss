@@ -1,5 +1,66 @@
-// @media screen and (max-width: 768px) {
-// 	.container {
-// 		width: 460px;
-// 	}
-// }
+@media screen and (max-width: 768px) {
+	.mobile-menu__list {
+		flex-direction: column;
+	}
+
+	.mobile-menu__list {
+		.nav__link {
+			font-size: 18px;
+		}
+	}
+
+	.home__info-text {
+		font-size: 29px;
+	}
+
+	.home__info-title {
+		font-size: 52px;	
+	}
+
+	.services__list {
+		flex: 0 1 35%;
+	}
+
+	.services__info {
+		flex: 0 1 65%;
+	}
+
+	.purchase__title {
+		font-size: 33px;
+	}
+
+	.feedback {
+		.title {
+			font-size: 31px;
+		}
+	}
+
+	.purchase2__title {
+		font-size: 22px;
+
+		span {
+			font-size: 22px;
+		}
+	}
+
+	.purchase2__left {
+		display: none;
+	}
+
+	.purchase2__right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.btn {
+			flex: 0 1 65px;
+		}
+	}
+
+	.contact {
+		.title {
+			font-size: 31px;
+		}
+	}
+
+}

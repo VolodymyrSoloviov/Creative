@@ -1798,4 +1798,43 @@ h6 {
     width: 387px;
     height: 290px; } }
 
+@media screen and (max-width: 768px) {
+  .mobile-menu__list {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .mobile-menu__list .nav__link {
+    font-size: 18px; }
+  .home__info-text {
+    font-size: 29px; }
+  .home__info-title {
+    font-size: 52px; }
+  .services__list {
+    -ms-flex: 0 1 35%;
+        flex: 0 1 35%; }
+  .services__info {
+    -ms-flex: 0 1 65%;
+        flex: 0 1 65%; }
+  .purchase__title {
+    font-size: 33px; }
+  .feedback .title {
+    font-size: 31px; }
+  .purchase2__title {
+    font-size: 22px; }
+    .purchase2__title span {
+      font-size: 22px; }
+  .purchase2__left {
+    display: none; }
+  .purchase2__right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
+    .purchase2__right .btn {
+      -ms-flex: 0 1 65px;
+          flex: 0 1 65px; }
+  .contact .title {
+    font-size: 31px; } }
+
 /*# sourceMappingURL=maps/main.min.css.map */
