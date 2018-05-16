@@ -33,6 +33,7 @@ var moduleJs = [
   'app/js/map.js',
   'app/js/smooth-scrolling.js',
   'app/js/mobile-menu.js',
+  'app/js/scroll-btn.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [

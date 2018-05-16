@@ -12,6 +12,14 @@ $(function() {
   slidesToScroll: 1,
   arrows: false,
   asNavFor: '.feedback__list',
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+  ]
 	});
 
 	$('.feedback__controll_prev').click(function(){
